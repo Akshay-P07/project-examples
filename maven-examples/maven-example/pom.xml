@@ -47,6 +47,12 @@
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.1.2</version>
                 </plugin>
+                <!-- Updated the maven-clean-plugin version here -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.1.0</version> <!-- Updated version -->
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
